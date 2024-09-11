@@ -1,9 +1,6 @@
-# Simple program to convert years to months and days
-years = int(input("Enter number of years: "))
+years = int(input("Voeg de aamtal jaren in: "))
 
-# Calculate months and days
 months = years * 12
 days = years * 365
 
-# Display the result
-print(f"Months: {months}, Days: {days}")
+print(f"Maanden: {months}, Dagen: {days}")
