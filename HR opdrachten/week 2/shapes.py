@@ -34,7 +34,7 @@ elif sides == 18:
     print("Octadecagon")
 elif sides == 19:
     print("Enneadecagon")
-elif sides == 19:
+elif sides == 20:
     print("Icosagon")
 else:
     print("Amount of sides is out of range.")

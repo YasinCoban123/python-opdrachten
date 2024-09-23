@@ -1,0 +1,42 @@
+Samenvatting van Python 02: Vertakkingsprogramma's
+
+Deze handleiding leert je de basis van vertakkingsprogramma's in Python, waarbij programma's beslissingen nemen op basis van invoer en voorwaarden. Je leert hoe je Python installeert, werken met basisinvoer, booleaanse logica gebruiken, voorwaardelijke uitspraken schrijven en functies maken. Aan het einde van deze oefeningen kun je eenvoudige programma's maken waarin de gebruiker gegevens invoert, het programma deze verwerkt en resultaten oplevert.
+
+Belangrijke secties:
+Installatie (Stap-01)
+
+Doel: Begrijpen en implementeren van booleaanse uitdrukkingen en voorwaardelijke uitspraken.
+Wat te leren: Verken booleaanse waarden (True, False), vergelijkingsoperatoren (zoals ==, !=, <, >), en de juiste syntaxis voor een if-else-structuur. Maak eenvoudige programma's die beslissingen nemen op basis van gebruikersinvoer, zoals controleren of een invoer het teken "e" bevat.
+
+
+Wat is een functie? (Stap-03)
+
+Doel: Begrijpen en implementeren van Python-functies, inclusief het definiëren van functies, het aanroepen van functies, en het werken met parameters en retourwaarden.
+Wat te leren: Leer de basisprincipes van functies, zoals het maken van een functie die tekst afdrukt of twee getallen optelt en het resultaat retourneert. Oefen met het maken van functies die beslissingen nemen op basis van gebruikersinvoer, zoals het afdrukken van "hallo" als de invoer groter is dan 10 en "dag" als deze kleiner of gelijk aan 10 is.
+
+Oefeningen:
+Schrijf een programma dat de gebruiker vraagt om een viercijferig getal in te voeren en de som van de cijfers berekent. Bijvoorbeeld, invoer van 3141 geeft als resultaat 3+1+4+1=9.
+Belangrijke bronnen:
+BRef-01: Bill Lubanovic, Introducing Python: Modern Computing in Simple Packages.
+OPyEditor: Online Python-editor voor het uitvoeren van eenvoudige programma's.
+
+Natuurlijk! Hier is een kort overzicht van wat je moet leren om met Python te beginnen:
+
+Python Installeren
+
+Installeer Python op je computer en leer hoe je het via de terminal start.
+Basis Programmeren
+
+Leer hoe je een programma schrijft dat invoer van de gebruiker vraagt en iets terugprint (zoals input() en print()).
+Voorwaardelijke Statements
+
+Oefen met if-else-uitspraken om beslissingen te nemen in je programma (bijv. controleren of een getal groter is dan 10).
+Booleaanse Logica
+
+Leer over True en False, vergelijkingsoperatoren (==, !=, >, <), en hoe je deze in beslissingen gebruikt.
+Functies
+
+Maak eenvoudige functies die invoer accepteren, iets doen (zoals optellen), en een resultaat teruggeven (return).
+Oefening
+
+Bouw stap voor stap kleine projecten, zoals een programma dat cijfers optelt of tekst bewerkt.
