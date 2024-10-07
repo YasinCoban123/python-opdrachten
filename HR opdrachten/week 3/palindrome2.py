@@ -9,9 +9,9 @@ def is_palindrome(s):
             return False
     return True
 
-input_string = input("Enter a string: ")
+input_sentence = input("Enter a sentence: ")
 
-if is_palindrome(input_string):
-    print(f'"{input_string}" is a palindrome.')
+if is_palindrome(input_sentence):
+    print(f'"{input_sentence}" is a palindrome.')
 else:
-    print(f'"{input_string}" is not a palindrome.')
+    print(f'"{input_sentence}" is not a palindrome.')
