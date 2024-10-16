@@ -1,11 +1,16 @@
-num = int(input("Voeg een nummer toe: "))
+def process_strings(strings):
+    processed_strings = []
+    for string in strings:
+        processed_string = ""
+        for char in reversed(string):
+            processed_string += char
+        processed_strings.append(processed_string)
+    return processed_strings
 
-sterren = ""
+def main():
+    names = ["Alice", "Bob", "Charlie", "Dave"]
+    processed_names = process_strings(names)
+    for name in processed_names:
+        print(name)
 
-i = 1
-
-while i < num:
-    sterren += "*woah"
-    i += 1
-
-print(sterren)
+main()
