@@ -23,22 +23,21 @@ def delete_contact(name):
 def test():
     # Test adding a contact
     add_contact('John Doe', '06876543210', 'john@hotemail.com')
-    # Let's check if the function works correctly
-    if len(contacts) != 1 or contacts[0]['name']!='John Doe':
-    	print('Test: ERROR in add_contact()')
+    # Checken of de contact correct is toegevoegd
+    assert len(contacts) == 1, f"Expected 1 contact, but got {len(contacts)}"
+    assert contacts[0]['name'] == 'John Doe', f"Expected name 'John Doe', but got {contacts[0]['name']}"
 
     # Test searching contacts
     search_results = search_by_name("John")
-    # Let's check if the function works correctly
-    if len(search_results) < 1:
-    	print('Test: ERROR in search_by_name()')
+    # Check of de zoekresultaat correct is.
+    assert len(search_results) == 1, f"Expected 1 search result, but got {len(search_results)}"
+    assert search_results[0]['name'] == 'John Doe', f"Expected name 'John Doe', but got {search_results[0]['name']}"
 
     # Test deleting a contact
     delete_contact("John Doe")
-    # todo: Implement a test here.
+    # Checken of de contact correct is verwijderd
+    assert len(contacts) == 0, f"Expected 0 contacts, but got {len(contacts)}"
 
-    print("All tests are executed.")
+    print("All tests passed successfully.")
 
 test()
-
-
